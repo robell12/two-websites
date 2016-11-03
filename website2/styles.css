@@ -1,0 +1,43 @@
+html {
+	background-color: grey
+}
+h1 {
+	text-align: center
+}
+.topbox{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white
+}
+.menu {
+  float: left;
+  border: 3px dashed black;
+  width:200px;
+  height:300px;
+  margin-top: 20px
+}
+.picture{
+	background-image: url("http://www.mccormickandschmicks.com/Libraries/whatsinseason/seafood-restaurant-portland-or-jakes-famous-crawfish.sflb.ashx");
+	width:600px;
+	height:300px;
+	margin-top: 20px
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white
+}
+.left {
+  width:600px;
+  height:300px;
+  margin-top: 20px;
+  border-right: 5px solid black
+}
+.right{
+	width:400px;
+	height:300px;
+	margin-top: 20px
+}
+li {
+	text-align: center
+}
